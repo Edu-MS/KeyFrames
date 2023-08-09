@@ -15,3 +15,4 @@
  O resultado deste comando será o arquivo "KeyFramesList.txt".
  Que será utilizado por este script, para formar o arquivo de texto "KeyFramesTimes.txt".
  Contendo os tempos de cada quadro-chave do video analisado.
+ 
