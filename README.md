@@ -5,7 +5,7 @@
  A lista de segundos, correspondente aos keyframes pode ser obtida com o software ffmpeg.
 
  O ffmpeg é um editor de video por linha de comando, e este é o comando para obter a lista:
- ffprobe -loglevel error -skip_frame nokey -select_streams v:0 -show_entries frame=pts_time -of csv=print_section=0 video.mp4 > KeyFramesList.txt
+ `ffprobe -loglevel error -skip_frame nokey -select_streams v:0 -show_entries frame=pts_time -of csv=print_section=0 video.mp4 > KeyFramesList.txt`
 
  No Windows, esse comando pode ser colado no bloco de notas e então salvo com a extensão ".bat".
  Então executado com um duplo clique, desde que o "arquivo.bat" esteja na mesma pasta que o video.
